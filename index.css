@@ -1,0 +1,67 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  background-image: url(https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg);
+  background-size: cover;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.nav {
+  display: flex;
+  padding: 40px;
+}
+
+.start {
+  margin-right: auto;
+  margin-left: 9%;
+  padding: 16px;
+  cursor: pointer;
+  font-size: 36px;
+}
+
+.services,
+.portfolio,
+.about,
+.team,
+.contact {
+  padding: 16px 14px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+i.fa-ellipsis-h {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .rightnav {
+    display: none;
+  }
+  .start {
+    margin-left: 0px;
+    color: #fed136;
+  }
+  i.fa-ellipsis-h {
+    display: inline-block;
+    font-size: 1.5em;
+    color: #fed136;
+    margin-bottom: -20px;
+  }
+  .menu {
+    color: white;
+    display: inline-block;
+    font-size: 1.5em;
+  }
+  .mobnav {
+    background: black;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .mobnav i {
+    padding-top: 10px;
+  }
+}
